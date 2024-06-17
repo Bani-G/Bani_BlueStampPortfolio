@@ -34,22 +34,16 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
+-->
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my first milestone, I have assembled the body of the hexapod robot. This just means attatching all the body parts to each other and wiring the robot. The only issue I had with my first milestone was the screwing of the screws as they were self tapping screws so they took more time and effort to screw in than normal screws. Also, I soon learned that attention to detail was important; I initially paid no attention to the orientation of certain plates, and later realized that they were meant to be flipped in the other direction. This led to tedious unscrewing and rescrewing of multiple mistakes. Another issue I had was screwing some plates on over the wires. I ended up having to unwire the robot and then screw the plates on, and then rewire under the plates.
+My next steps are to build the controller and calibrate the robot. Then I will work on the software. Once this is complete I will be finished with the hexapod and will begin working on my modifications. I plan to make a grappling hook for the robot, give it the ability to walk up stairs and decorate it with LEDs to make it look pretty because right now it does not look pretty. I will explore my ideas for modifications more in depth once I finish the hexapod.
 
-For my first milestone, I have assembled the body of the hexapod robot. This just means attatching all the body parts to each other and wiring the robot. The only issue I had with my first milestone was the screwing of the screws as they were self tapping screws so they took more time and effort to screw in than normal screws. Also, I soon learned that attention to detail was important; I initially paid no attention to the orientation of certain plates, and later realized that they were meant to be flipped in the other direction. This led to tedious unscrewing and rescrewing of multiple mistakes.
-
-# Schematics 
+<!-- # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
