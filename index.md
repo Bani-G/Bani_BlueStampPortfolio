@@ -13,13 +13,13 @@ The hexapod is a six-legged robot that can be controlled to move in any directio
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G1wfri5acvk?si=vUckQLzvb-4nGpFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller.
+For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller. My next steps will be to add my modifications which include a battery mount as well as a crane. I plan to build a new remote controller so that both the crane and robot can be controlled by one remote. To do this, I will research how the controller I just built works. Then I will build a new remote.
 
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/opUCqyP4YVc?si=gO0VVhvIhBX_aKKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my second milestone, I finished the robot. For this, I uploaded the code to the arduino and calibrated the legs of the robot. Calibrating the robot was very time consuming as it took a lot of time to precicesly line up the legs where I needed them to be. To calibrate the hexapod, I used the Processing applications. After some time, I eventually managed to finish and get the data saved to the arduino.
+For my second milestone, I finished the robot. For this, I uploaded the code to the arduino and calibrated the legs of the robot. Calibrating the robot was very time consuming as it took a lot of time to precicesly line up the legs where I needed them to be. To calibrate the hexapod, I used the Processing applications. After some time, I eventually managed to finish and get the data saved to the arduino. The only thing left to complete is the controller.
 
 # First Milestone
 
