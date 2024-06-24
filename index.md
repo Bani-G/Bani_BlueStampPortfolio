@@ -20,7 +20,7 @@ Description
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G1wfri5acvk?si=vUckQLzvb-4nGpFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller. My next steps will be to add my modifications which include a battery mount as well as a crane. I plan to build a new remote controller so that both the crane and robot can be controlled by one remote. To do this, I will research how the controller I just built works. Then I will build a new remote.
+For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller. The Joystick sits on top of a potentiometer, which works by measuring the displacement of the joystick from the center, and traslates it into servo motor turns. My next steps will be to add my modifications which include a battery mount as well as a crane. I plan to build a new remote controller so that both the crane and robot can be controlled by one remote. To do this, I will research how the controller I just built works. Then I will build a new remote.
 
 # Second Milestone
 
