@@ -62,9 +62,8 @@ void loop() {
 | Servo motor | This is used to turn the turntable and change the direction of the crane | $16.99 | <a href="https://www.amazon.com/Control-Angle180-Digital-Torque-Helicopter/dp/B07NQJ1VZ2/"> Link </a>|
 | Mini Servo | This is to move the crane up and down | $5.69 | <a href="https://www.amazon.com/Compatible-Helicopter-Airplane-Control-Accessories/dp/B0D1BY4SD6/"> Link </a> |
 | DC motor | I used a DC motor as the winch, to bring the hook up and down | $9.98 | <a href="https://www.amazon.com/Stemedu-Gearbox-Motor-Shaft-200RPM/dp/B08M67Q3TB/"> Link </a> |
+| Bearings | I used these to allow the string to move freely over the top of the crane arm | $6.59 | <a href="https://www.amazon.com/uxcell-V-Groove-Bearings-3mmx10mmx3mm-Miniature/dp/B082PQ6XNY/"> Link </a> |
 <!--
-
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 -->
 
