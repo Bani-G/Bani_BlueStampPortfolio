@@ -63,6 +63,11 @@ void loop() {
 | Mini Servo | This is to move the crane up and down | $5.69 | <a href="https://www.amazon.com/Compatible-Helicopter-Airplane-Control-Accessories/dp/B0D1BY4SD6/"> Link </a> |
 | DC motor | I used a DC motor as the winch, to bring the hook up and down | $9.98 | <a href="https://www.amazon.com/Stemedu-Gearbox-Motor-Shaft-200RPM/dp/B08M67Q3TB/"> Link </a> |
 | Bearings | I used these to allow the string to move freely over the top of the crane arm | $6.59 | <a href="https://www.amazon.com/uxcell-V-Groove-Bearings-3mmx10mmx3mm-Miniature/dp/B082PQ6XNY/"> Link </a> |
+| Arduino Nano (2) | One nano was used for the remote and one for the crane | $9.99 | <a href="https://www.amazon.com/ATmega328P-Microcontroller-Board-Cable-Arduino/dp/B00NLAMS9C/"> Link </a> |
+| Bluetooth Module (2) | I used the bluetooth to connect the remote and the crane| $10.99 | <a href="https://www.amazon.com/DSD-TECH-Bluetooth-iBeacon-Arduino/dp/B06WGZB2N4/"> Link </a> |
+| Breadboards (2) | I wired everything to the two breadboards | $8.99 | <a href="https://www.amazon.com/Breadborad-Solderless-Breadboards-Distribution-Connecting/dp/B082VYXDF1/"> Link </a> |
+| Jumper Cables | I used these to wire everything | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/"> Link </a> |
+
 <!--
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 -->
