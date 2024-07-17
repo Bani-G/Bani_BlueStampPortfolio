@@ -39,7 +39,6 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 -->
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ## Crane Code
 
@@ -93,14 +92,87 @@ bluetooth.write(255);
 bluetooth.write(angle1);
 bluetooth.write(angle2);
 bluetooth.write(angle3);
-
-Serial.print(angle1);
-Serial.print("    ");
-Serial.print(angle2);
-Serial.print("    ");
-Serial.println(angle3);
 }
 ```
+### Recieve Code
+
+```c++
+#include <NeoSWSerial.h>
+
+#include <Servo.h>
+
+NeoSWSerial bluetooth(3,2);
+Servo servo1;
+Servo servo2;
+int posServo1 = 0;
+int valServo2;
+#define enB 9
+#define in3 6
+#define in4 7
+
+void  setup() {
+  
+  pinMode(8, OUTPUT);
+  pinMode(10, OUTPUT);
+
+  pinMode(enB, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  
+  servo1.attach(10);
+  servo2.attach(8);
+
+  servo1.write(0);
+  servo2.write(0);
+  bluetooth.begin(9600);
+
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  if (bluetooth.available() >= 4){
+    int flag = bluetooth.read();
+    if(flag == 255){
+      int angle1 = bluetooth.read();
+      int angle2 = bluetooth.read();
+      int angle3 = bluetooth.read();
+      
+      Serial.print(angle1);
+      Serial.print("    ");
+      Serial.print(angle2);
+      Serial.print("    ");
+      Serial.println(angle3);
+      
+      servo2.write(angle1);
+      servo1.write(angle2);
+      
+
+      if(angle3 < 75){
+        digitalWrite(in3, HIGH);
+        digitalWrite(in4, LOW);
+      }
+      
+      else if(angle3 > 110 || angle3 == 76 || angle3 == 75){
+        digitalWrite(in3, LOW);
+        digitalWrite(in4, HIGH);
+      }
+      
+     /* else if(angle3>100) {
+        digitalWrite(in3, LOW);
+        digitalWrite(in4, HIGH);
+        Serial.println(angle3);
+      }
+      */
+      else if(74 <= angle3 && 110 >= angle3){
+        digitalWrite(in3, LOW);
+        digitalWrite(in4, LOW);
+      }
+    }
+  }
+}
+```
+
 
 # Bill of Materials
 
