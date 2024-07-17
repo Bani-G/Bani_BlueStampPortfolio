@@ -40,6 +40,29 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 -->
 # Code
 
+## Hexapod Code
+
+```c++
+#ifndef ARDUINO_AVR_MEGA2560
+#error Wrong board. Please choose "Arduino/Genuino Mega or Mega 2560"
+#endif
+
+// Include FNHR (Freenove Hexapod Robot) library
+#include <FNHR.h>
+
+FNHR robot;
+
+void setup() {
+  // Start Freenove Hexapod Robot with default function
+  robot.Start(true);
+}
+
+void loop() {
+  // Update Freenove Hexapod Robot
+  robot.Update();
+}
+```
+
 ## Crane Code
 
 ### Transmit Code
