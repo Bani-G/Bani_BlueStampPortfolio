@@ -138,12 +138,6 @@ void loop() {
       int angle2 = bluetooth.read();
       int angle3 = bluetooth.read();
       
-      Serial.print(angle1);
-      Serial.print("    ");
-      Serial.print(angle2);
-      Serial.print("    ");
-      Serial.println(angle3);
-      
       servo2.write(angle1);
       servo1.write(angle2);
       
@@ -158,12 +152,6 @@ void loop() {
         digitalWrite(in4, HIGH);
       }
       
-     /* else if(angle3>100) {
-        digitalWrite(in3, LOW);
-        digitalWrite(in4, HIGH);
-        Serial.println(angle3);
-      }
-      */
       else if(74 <= angle3 && 110 >= angle3){
         digitalWrite(in3, LOW);
         digitalWrite(in4, LOW);
