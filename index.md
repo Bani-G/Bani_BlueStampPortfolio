@@ -37,23 +37,71 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 <!-- # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
+-->
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
+## Crane Code
+
+### Transmit Code
+
 ```c++
-void setup() {
-  // put your setup code here, to run once:
+#include <SoftwareSerial.h>
+
+
+SoftwareSerial bluetooth(3,2);
+int button1 = 11;
+int button2 = 12;
+int potpinServo2 = A0;
+int angle2 = 0;
+
+
+
+void  setup() {
+  pinMode(button1, INPUT_PULLUP);
+  pinMode(button2, INPUT_PULLUP);
+
+  bluetooth.begin(9600);
+
   Serial.begin(9600);
-  Serial.println("Hello World!");
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+ int angle1 = analogRead(potpinServo2) / 6;
+ delay(15);
 
+int pressed1 = digitalRead(button1);
+int pressed2 = digitalRead(button2);
+
+if(pressed1 == LOW){
+  angle2++;
+}
+if(pressed2 == LOW){
+  angle2--;
+}
+if(angle2 < 0){
+  angle2 = 0;
+}
+if(angle2 > 180){
+  angle2 = 180;
+}
+
+int angle3 = analogRead(A1) / 6;
+
+bluetooth.write(255);
+bluetooth.write(angle1);
+bluetooth.write(angle2);
+bluetooth.write(angle3);
+
+Serial.print(angle1);
+Serial.print("    ");
+Serial.print(angle2);
+Serial.print("    ");
+Serial.println(angle3);
 }
 ```
--->
+
 # Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
