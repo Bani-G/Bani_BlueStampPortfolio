@@ -247,3 +247,5 @@ For my starter project, I made the Weevil Eyes project. This is a small bug-like
 <a href="https://www.instructables.com/Arduino-Two-Way-Communication-Via-Bluetooth-HC-05/"> Arduino Two Way Communication via Bluetooth (HC-05) </a>
 
 <a href="https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/"> DC Motor with Joystick </a>
+
+<a href="https://newbiely.com/tutorials/arduino-nano/arduino-nano-potentiometer-servo-motor"> Servo Motor with Potentiometer </a>
