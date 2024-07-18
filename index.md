@@ -239,3 +239,11 @@ void loop() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oBlrQPlmvdY?si=uAyb_n-3glpYcsWq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my starter project, I made the Weevil Eyes project. This is a small bug-like object whos eyes glow when it is dark. There is a light sensor which, when it doesn't detect any light, sends a signal to thie leds to light up. This project was very solder heavy and I got a lot of practice painstakingly soldering connections. I had trouble soldering the battery holder on, and therefore I had a lot of issues with the project before I finally managed to solder it properly and get it to work.
+
+# Resources
+
+<a href="https://projecthub.arduino.cc/bruno_opaiva/controling-servo-motors-with-buttons-and-arduino-bcb3b6"> Controlling Servo Motors with Buttons and Arduino </a>
+
+<a href="https://www.instructables.com/Arduino-Two-Way-Communication-Via-Bluetooth-HC-05/"> Arduino Two Way Communication via Bluetooth (HC-05) </a>
+
+<a href="https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/"> DC Motor with Joystick </a>
