@@ -30,6 +30,9 @@ Figure 3: This is the controller for my Hexapod. The joystick sontrols the movem
 
 For my second milestone, I finished the robot. For this, I uploaded the code to the arduino and calibrated the legs of the robot. Calibrating the robot was very time consuming as it took a lot of time to precicesly line up the legs where I needed them to be. To calibrate the hexapod, I used the Processing application. After some time, I eventually managed to finish and get the data saved to the arduino. However, I will need to recallibrate if I ever unscrew the legs of the robot and rescrew it back on. As of now, the only thing left to complete is the controller.
 
+![Callibrating App](Callibration.png)
+Figure 2: This is the software I used to callibrate the robot.
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rit9lxJYW2E?si=OV__sKkzZn4NqmJ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
