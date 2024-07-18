@@ -22,7 +22,7 @@ For my modificiation, I mounted a crane on my hexapod. The way this works is the
 For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller. The Joystick sits on top of a potentiometer, which works by measuring the displacement of the knob from the center, and traslates it into servo motor turns. My next steps will be to add my modifications which include a battery mount as well as a crane. I plan to build a mount on top of the hexapod for the crane, as well as a new remote for the crane. I might combine the hexapod remote and the crane remote into one remote later.
 
 ![Controller](RobotController.png)
-Figure 3: This is the controller for my Hexapod. The joystick sontrols the movement of the hexapod. The switches control how the robot moves, depending on the configuration of on and off. The potentiometers control the height.
+Figure 2: This is the controller for my Hexapod. The joystick sontrols the movement of the hexapod. The switches control how the robot moves, depending on the configuration of on and off. The potentiometers control the height.
 
 # Second Milestone
 
@@ -31,7 +31,7 @@ Figure 3: This is the controller for my Hexapod. The joystick sontrols the movem
 For my second milestone, I finished the robot. For this, I uploaded the code to the arduino and calibrated the legs of the robot. Calibrating the robot was very time consuming as it took a lot of time to precicesly line up the legs where I needed them to be. To calibrate the hexapod, I used the Processing application. After some time, I eventually managed to finish and get the data saved to the arduino. However, I will need to recallibrate if I ever unscrew the legs of the robot and rescrew it back on. As of now, the only thing left to complete is the controller.
 
 ![Callibrating App](Callibration.png)
-Figure 2: This is the software I used to callibrate the robot.
+Figure 1: This is the software I used to callibrate the robot.
 
 # First Milestone
 
