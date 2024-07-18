@@ -36,7 +36,7 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 # Schematics 
 
-![Headstone Image](CraneArmV3.stl)
+![Crane Arm File](CraneArmV3.stl)
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 -->
 # Code
