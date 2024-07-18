@@ -36,6 +36,9 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 # Schematics 
 
+![Crane Wiring](CraneSchematics.png)
+The wiring and schematics of the crane. Designed on Tinkercad.
+
 ![Crane Arm](CraneArm.png)
 A screenshot of my CAD for the arm of the crane. Designed on OnShape.
 
