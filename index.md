@@ -21,7 +21,7 @@ For my modificiation, I mounted a crane on my hexapod. The way this works is the
 
 For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller. The Joystick sits on top of a potentiometer, which works by measuring the displacement of the knob from the center, and traslates it into servo motor turns. My next steps will be to add my modifications which include a battery mount as well as a crane. I plan to build a mount on top of the hexapod for the crane, as well as a new remote for the crane. I might combine the hexapod remote and the crane remote into one remote later.
 
-![Controller](RobotController.heic)
+![Controller](RobotController.png)
 Figure 3: This is the controller for my Hexapod. The joystick sontrols the movement of the hexapod. The switches control how the robot moves, depending on the configuration of on and off. The potentiometers control the height.
 
 # Second Milestone
