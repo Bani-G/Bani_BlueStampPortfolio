@@ -14,6 +14,7 @@ The hexapod is a six-legged robot that can be controlled to move in any directio
 For my modificiation, I mounted a crane on my hexapod. The way this works is there is a remote and the actual crane. They are connected via bluetooth. There is a potentiometer, joystick, and two buttons connected to the remote. The potentiometer controls the turntable that rotates the crane. The joystick controls the winch, and it can release and collect string. The buttons control the crane arm, and move it up and down. With these three functions, I can lift a payload. One challenge I had was designing the actual hexapod mount. It was really difficult to get the exact measurements of the angles and distances between the four slits. It took me seven tries to finally have it fit. Another challenge I had was the bluetooth. The servo code library and the bluetooth code library turned out to use the same timer. This caused the servos to twitch a lot. I ended up using a different library and the servos finally worked.
 
 ![Crane Remote](CraneControl.png)
+
 **Figure 1:** *The remote used to control the crane. I designed, wired, and built the whole remote myself.*
 
 # Final Milestone
