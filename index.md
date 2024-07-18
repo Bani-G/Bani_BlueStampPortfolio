@@ -64,9 +64,11 @@ A screenshot of the CAD for the mount of the crane which fits into the Hexapod. 
 The CAD for the mount I designed to hold the DC motor/winch. Designed on OnShape.
 
 ![Winch part](Winch.png)
+
 The CAD for the winch. This part attached to the DC motor and can collect and release string. Designed on OnShape.
 
 ![Servo Mount](ServoMount.png)
+
 The CAD I designed to mount the servo motor/crane arm to my turntable. Designed on OnShape.
 <!-- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 -->
