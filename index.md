@@ -97,6 +97,9 @@ void loop() {
 
 ## Crane Code
 
+![Flowchart](Flowchart.png)
+**Figure 12** *Flowchart of crane code. Made on Lucidchart.*
+
 ### Transmit Code
 
 ```c++
