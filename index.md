@@ -51,6 +51,9 @@ Schematics for the Hexapod robot. Credit to Gary Pan on Procreate.
 ![Crane Schematics](CraneWiring.png)
 The wiring and schematics of the crane. Designed on Tinkercad.
 
+![Crane Remote Schematics](RemoteSchematic.png)
+The schematics for the remote of the crane. Joystick is not shown. Designed on Tinkercad.
+
 ![Crane Arm](CraneArm.png)
 A screenshot of my CAD for the arm of the crane. Designed on OnShape.
 
