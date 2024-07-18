@@ -48,7 +48,7 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 ![Hexapod Schematics](Schematics.jpg)
 Schematics for the Hexapod robot. Credit to Gary Pan on Procreate.
 
-![Crane Wiring](CraneSchematics.png)
+![Crane Schematics](CraneWiring.png)
 The wiring and schematics of the crane. Designed on Tinkercad.
 
 ![Crane Arm](CraneArm.png)
