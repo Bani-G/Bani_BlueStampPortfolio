@@ -14,7 +14,7 @@ The hexapod is a six-legged robot that can be controlled to move in any directio
 For my modificiation, I mounted a crane on my hexapod. The way this works is there is a remote and the actual crane. They are connected via bluetooth. There is a potentiometer, joystick, and two buttons connected to the remote. The potentiometer controls the turntable that rotates the crane. The joystick controls the winch, and it can release and collect string. The buttons control the crane arm, and move it up and down. With these three functions, I can lift a payload. One challenge I had was designing the actual hexapod mount. It was really difficult to get the exact measurements of the angles and distances between the four slits. It took me seven tries to finally have it fit. Another challenge I had was the bluetooth. The servo code library and the bluetooth code library turned out to use the same timer. This caused the servos to twitch a lot. I ended up using a different library and the servos finally worked.
 
 ![Crane Remote](CraneRemote.png)
-Figure 1: The remote used to control the crane. I designed, wired, and built the whole remote myself.
+**Figure 1:** *The remote used to control the crane. I designed, wired, and built the whole remote myself.*
 
 # Final Milestone
 
@@ -23,7 +23,7 @@ Figure 1: The remote used to control the crane. I designed, wired, and built the
 For my final milestone, I built the controller and finished the entire build. The controller works via a bluetooth module that is attached to both the robot and the controller. The Joystick sits on top of a potentiometer, which works by measuring the displacement of the knob from the center, and traslates it into servo motor turns. My next steps will be to add my modifications which include a battery mount as well as a crane. I plan to build a mount on top of the hexapod for the crane, as well as a new remote for the crane. I might combine the hexapod remote and the crane remote into one remote later.
 
 ![Controller](RobotController.png)
-Figure 2: This is the controller for my Hexapod. The joystick sontrols the movement of the hexapod. The switches control how the robot moves, depending on the configuration of on and off. The potentiometers control the height.
+**Figure 2:** *This is the controller for my Hexapod. The joystick sontrols the movement of the hexapod. The switches control how the robot moves, depending on the configuration of on and off. The potentiometers control the height.*
 
 # Second Milestone
 
@@ -32,7 +32,7 @@ Figure 2: This is the controller for my Hexapod. The joystick sontrols the movem
 For my second milestone, I finished the robot. For this, I uploaded the code to the arduino and calibrated the legs of the robot. Calibrating the robot was very time consuming as it took a lot of time to precicesly line up the legs where I needed them to be. To calibrate the hexapod, I used the Processing application. After some time, I eventually managed to finish and get the data saved to the arduino. However, I will need to recallibrate if I ever unscrew the legs of the robot and rescrew it back on. As of now, the only thing left to complete is the controller.
 
 ![Callibrating App](Callibration.png)
-Figure 3: This is the software I used to callibrate the robot.
+**Figure 3:** *This is the software I used to callibrate the robot.*
 
 # First Milestone
 
@@ -44,30 +44,30 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 # Schematics 
 
 ![Hexapod Schematics](Schematics.jpg)
-Figure 4: Schematics for the Hexapod robot. Credit to Gary Pan on Procreate.
+**Figure 4:** *Schematics for the Hexapod robot. Credit to Gary Pan on Procreate.*
 
 ![Crane Schematics](CraneWiring.png)
-Figure 5: The wiring and schematics of the crane. Designed on Tinkercad.
+**Figure 5:** *The wiring and schematics of the crane. Designed on Tinkercad.*
 
 ![Crane Remote Schematics](RemoteSchematic.png)
-Figure 6: The schematics for the remote of the crane. Joystick is not shown. Designed on Tinkercad.
+**Figure 6:** *The schematics for the remote of the crane. Joystick is not shown. Designed on Tinkercad.*
 
 ![Crane Arm](CraneArm.png)
-Figure 7: A screenshot of my CAD for the arm of the crane. Designed on OnShape.
+**Figure 7:** *A screenshot of my CAD for the arm of the crane. Designed on OnShape.*
 
 ![Crane Mount](CraneMount.png)
-Figure 8: A screenshot of the CAD for the mount of the crane which fits into the Hexapod. Designed on OnShape.
+**Figure 8:** *A screenshot of the CAD for the mount of the crane which fits into the Hexapod. Designed on OnShape.*
 
 ![DC Motor Mount](DCMount.png)
-Figure 9: The CAD for the mount I designed to hold the DC motor/winch. Designed on OnShape.
+**Figure 9:** *The CAD for the mount I designed to hold the DC motor/winch. Designed on OnShape.*
 
 ![Winch part](Winch.png)
 
-Figure 10: The CAD for the winch. This part attached to the DC motor and can collect and release string. Designed on OnShape.
+**Figure 10:** *The CAD for the winch. This part attached to the DC motor and can collect and release string. Designed on OnShape.*
 
 ![Servo Mount](ServoMount.png)
 
-Figure 11: The CAD I designed to mount the servo motor/crane arm to my turntable. Designed on OnShape.
+**Figure 11:** *The CAD I designed to mount the servo motor/crane arm to my turntable. Designed on OnShape.*
 
 # Code
 
