@@ -6,9 +6,9 @@ The hexapod is a six-legged robot that can be controlled to move in any directio
 | Bani G | Gunn High School | Aerospace and Mechanical Engineering | Incoming Junior
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
 -->
+![Headstone Image](logo.svg)
+
 # Modifications
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fSlicd6xWKw?si=GanFhlZTktiZWIB_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
