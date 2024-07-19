@@ -70,6 +70,7 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 **Figure 11:** *The CAD I designed to mount the servo motor/crane arm to my turntable. Designed on OnShape.*
 
+<!--
 ## CAD Files
 
 [Crane Arm CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/7aeed8f044a26782232e933dab85674a5ed9218f/CraneArmV3.stl)
@@ -81,6 +82,8 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 [Crane Mount CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/072a9f95f4c86156352a00b0e95635a0bf139e7e/FinalCraneMount.stl)
 
 [Servo Motor Mount](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/dbeeb13592e40b803562307b1d234dbd80cdfd66/ServoMountV2.stl)
+
+-->
 
 # Code
 
