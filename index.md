@@ -72,15 +72,15 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 ## CAD Files
 
-![Crane Arm CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/7aeed8f044a26782232e933dab85674a5ed9218f/CraneArmV3.stl)
+[Crane Arm CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/7aeed8f044a26782232e933dab85674a5ed9218f/CraneArmV3.stl)
 
-![DC Motor Mount CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/03ebcfadb9abee535828dc75ef5b03a99fd6beaa/DCMotorMountV2.stl)
+[DC Motor Mount CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/03ebcfadb9abee535828dc75ef5b03a99fd6beaa/DCMotorMountV2.stl)
 
-![DC Motor Winch CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/d222b54770e8e93ebbb446c3327ba8f9ea6c0d84/DCMotorWinchV2.stl)
+[DC Motor Winch CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/d222b54770e8e93ebbb446c3327ba8f9ea6c0d84/DCMotorWinchV2.stl)
 
-![Crane Mount CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/072a9f95f4c86156352a00b0e95635a0bf139e7e/FinalCraneMount.stl)
+[Crane Mount CAD](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/072a9f95f4c86156352a00b0e95635a0bf139e7e/FinalCraneMount.stl)
 
-![Servo Motor Mount](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/dbeeb13592e40b803562307b1d234dbd80cdfd66/ServoMountV2.stl)
+[Servo Motor Mount](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/dbeeb13592e40b803562307b1d234dbd80cdfd66/ServoMountV2.stl)
 
 # Code
 
