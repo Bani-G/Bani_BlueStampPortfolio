@@ -74,7 +74,13 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 ![Crane Arm CAD](CraneArmV3.stl)
 
-![
+![DC Motor Mount CAD](DCMotorMountV2.stl)
+
+![DC Motor Winch CAD](DCMotorWinchV2.stl)
+
+![Crane Mount CAD](FinalCraneMount.stl)
+
+![Servo Motor Mount](ServoMountV2.stl)
 
 # Code
 
