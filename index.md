@@ -53,8 +53,8 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 ![Crane Remote Schematics](RemoteSchematic.png)
 **Figure 6:** *The schematics for the remote of the crane. Joystick is not shown. Designed on Tinkercad.*
 
-![Crane Arm](CraneArmV3.stl)
-**Figure 7:** *A my CAD for the arm of the crane. Designed on OnShape.*
+![Crane Arm](CraneArm.png)
+**Figure 7:** *A screenshot of my CAD for the arm of the crane. Designed on OnShape.*
 
 ![Crane Mount](CraneMount.png)
 **Figure 8:** *A screenshot of the CAD for the mount of the crane which fits into the Hexapod. Designed on OnShape.*
@@ -69,6 +69,12 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 ![Servo Mount](ServoMount.png)
 
 **Figure 11:** *The CAD I designed to mount the servo motor/crane arm to my turntable. Designed on OnShape.*
+
+## CAD Files
+
+![Crane Arm CAD](CraneArmV3.stl)
+
+![
 
 # Code
 
