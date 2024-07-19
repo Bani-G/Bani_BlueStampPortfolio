@@ -72,7 +72,7 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 ## CAD Files
 
-![Crane Arm CAD](CraneArmV3.stl)
+![Crane Arm CAD]([CraneArmV3.stl](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/7aeed8f044a26782232e933dab85674a5ed9218f/CraneArmV3.stl))
 
 ![DC Motor Mount CAD](DCMotorMountV2.stl)
 
