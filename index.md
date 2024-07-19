@@ -80,7 +80,7 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 ![Crane Mount CAD]([FinalCraneMount.stl](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/072a9f95f4c86156352a00b0e95635a0bf139e7e/FinalCraneMount.stl))
 
-![Servo Motor Mount](ServoMountV2.stl)
+![Servo Motor Mount]([ServoMountV2.stl](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/dbeeb13592e40b803562307b1d234dbd80cdfd66/ServoMountV2.stl))
 
 # Code
 
