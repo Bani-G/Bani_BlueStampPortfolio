@@ -76,7 +76,7 @@ My next steps are to build the controller and calibrate the robot. Then I will w
 
 ![DC Motor Mount CAD]([DCMotorMountV2.stl](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/03ebcfadb9abee535828dc75ef5b03a99fd6beaa/DCMotorMountV2.stl))
 
-![DC Motor Winch CAD](DCMotorWinchV2.stl)
+![DC Motor Winch CAD]([DCMotorWinchV2.stl](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/d222b54770e8e93ebbb446c3327ba8f9ea6c0d84/DCMotorWinchV2.stl))
 
 ![Crane Mount CAD]([FinalCraneMount.stl](https://github.com/Bani-G/Bani_BlueStampPortfolio/blob/072a9f95f4c86156352a00b0e95635a0bf139e7e/FinalCraneMount.stl))
 
